@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFE5FF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+  <!-- Burger Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_burger_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buurger" />
+
+    <TextView
+        android:id="@+id/id_burger_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Burger"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+  <!-- Steak Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_steak_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/steeak" />
+
+    <TextView
+        android:id="@+id/id_steak_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Steak"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+  <!-- Chicken Wrap Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_chicken_wrap_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chicken_wrap" />
+
+    <TextView
+        android:id="@+id/id_chicken_wrap_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Chicken Wrap"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+  <!-- Fried Chicken Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_fried_chicken_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fried_chicken" />
+
+    <TextView
+        android:id="@+id/id_fried_chicken_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Fried Chicken"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+  <!-- Salmon Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_salmon_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/salmon" />
+
+    <TextView
+        android:id="@+id/id_salmon_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Salmon"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+  <!-- Tacos Item -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/id_tacos_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tacoos" />
+
+    <TextView
+        android:id="@+id/id_tacos_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Tacos"
+        android:textSize="16sp" />
+  </LinearLayout>
+
+</LinearLayout>

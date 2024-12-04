@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tablebooking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Date input field -->
+
+    <!-- Time input field -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/tabel" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Booking Date (YYYY-MM-DD)"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Booking Time (HH:MM)"
+        android:inputType="time"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <!-- Number of Guests input field -->
+    <EditText
+        android:id="@+id/etGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Guests"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/tabelbooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CCA9CC"
+        android:text="Confirm" />
+
+    <!-- Book Table Button -->
+
+</LinearLayout>

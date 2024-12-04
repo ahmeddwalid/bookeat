@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <!-- Primary color used in the app -->
+        <color name="colorPrimary">#FF5722</color> <!-- Example Orange color -->
+
+        <!-- Other colors can be defined as needed -->
+        <color name="colorAccent">#4CAF50</color> <!-- Example Green color -->
+        <color name="colorPrimaryDark">#D32F2F</color> <!-- Darker shade of the primary color -->
+
+
+
+</resources>
