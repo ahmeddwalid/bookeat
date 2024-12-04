@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         loginEmail = findViewById(R.id.loginEmail);
         loginPassword = findViewById(R.id.loginPassword);
         loginButton = findViewById(R.id.loginButton);
-        signUpButton = findViewById(R.id.signinButton);
+        signUpButton = findViewById(R.id.signUpButton);
 
         // Handle Login button click
         loginButton.setOnClickListener(v -> {
